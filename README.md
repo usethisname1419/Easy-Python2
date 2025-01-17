@@ -28,8 +28,8 @@ Installation
 
     Clone the repository:
 
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/usethisname1419/Easy-Python2.git
+    cd Easy-Python2
 
     Ensure Python 3 is installed on your system:
 
@@ -44,7 +44,7 @@ Installation
 
 Basic Syntax
 
-python3 create_envs.py <base_path> <py3_env_name> <py2_env_name>
+python3 py2.py <base_path> <py3_env_name> <py2_env_name>
 
 Arguments
 
@@ -59,7 +59,7 @@ Optional Flags
 
 Example
 
-python3 create_envs.py /home/user/envs py3_env py2_env --python2 /usr/bin/python2.7
+python3 py2.py /home/user/envs py3_env py2_env --python2 /usr/bin/python2.7
 
 This will create the following structure:
 ```
